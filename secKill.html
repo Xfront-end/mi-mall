@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>秒杀</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./asset/normalize.css">
+  <link rel="stylesheet" href="./asset/common.css">
+  <link rel="stylesheet" href="./asset/secKill.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container">
+      <div class="main-top-bar">
+        <ul class="top-bar-left">
+          <li class="bar-item"><a>小米商城</a></li>
+          <li class="bar-item"><a>MIUI</a></li>
+          <li class="bar-item"><a>IoT</a></li>
+          <li class="bar-item"><a>云服务</a></li>
+          <li class="bar-item"><a>金融</a></li>
+          <li class="bar-item"><a>有品</a></li>
+          <li class="bar-item"><a>小爱开放平台</a></li>
+          <li class="bar-item"><a>企业团购</a></li>
+          <li class="bar-item"><a>资质证照</a></li>
+          <li class="bar-item"><a>协议规则</a></li>
+          <li class="bar-item"><a>下载app</a></li>
+          <li class="bar-item clear-last-line"> Select Location</li>
+        </ul>
+        <ul class="top-bar-right">
+          <li class="bar-item"><a>登录</a></li>
+          <li class="bar-item"><a>注册</a></li>
+          <li class="bar-item clear-last-line"><a>消息通知</a></li>
+          <li class="bar-item shop-cart clear-last-line">
+            <img
+              style="width:15px;vertical-align:middle;margin-right:5px" 
+              src="./asset/img/shop-cart.png">购物车 (0)
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="top-nav-bar">
+      <div class="logo">
+        <a>
+          <img src="../public/asset/img/mi-logo.png"/>
+        </a>
+      </div>
+      <ul class="category">
+        <li class="category-item"><a>全部商品分类</a></li>
+        <li class="category-item"><a>小米手机</a></li>
+        <li class="category-item"><a>Redmi 红米</a></li>
+        <li class="category-item"><a>电视</a></li>
+        <li class="category-item"><a>家电</a></li>
+        <li class="category-item"><a>笔记本</a></li>
+        <li class="category-item"><a>路由器</a></li>
+        <li class="category-item"><a>智能硬件</a></li>
+        <li class="category-item"><a>服务</a></li>
+        <li class="category-item"><a>社区</a></li>
+      </ul>
+      <div class="input-area">
+        <input class="input" placeholder="电视" />
+        <div class="search-btn">
+          <span class="search-img"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-body">
+    <div class="container">
+      <div class="seckill-head">
+        <div class="seckill-bar">
+          <div class="seckill-playground-num">
+            <div class="seckill-start-time">
+              14:00
+            </div>
+            <div class="seckill-status">
+              <p class="sckilling">抢购中</p>
+              <p class="sckill-left-time">距结束 04:54:34 </p>
+            </div>
+          </div>
+          <div class="seckill-playground-num">
+            <div class="seckill-start-time">
+              20:00
+            </div>
+            <div class="seckill-status">
+              <p class="sckilling">即将开始</p>
+            </div>
+          </div>
+          <div class="seckill-playground-num">
+            <div class="seckill-start-time">
+              22:00
+            </div>
+            <div class="seckill-status">
+              <p class="sckilling">即将开始</p>
+            </div>
+          </div>
+          <div class="seckill-playground-num">
+            <div class="seckill-start-time">
+              00:00
+            </div>
+            <div class="seckill-status">
+              <p class="sckilling">明日开始</p>
+            </div>
+          </div>
+          <div class="seckill-playground-num">
+            <div class="seckill-start-time">
+              10:00
+            </div>
+            <div class="seckill-status">
+              <p class="sckilling">明日开始</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="seckill-goods-show">
+        <ul class="seckill-goods-list">
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ff6d8ce4b095cdc62c5924a2be3fc970.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家直流变频落地扇</p>
+              <p class="seckill-goods-intro">用科技创造自然风</p>
+              <p>
+                <span class="current-price">309.00元</span>
+                <span class="old-price">349元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8674c6a19801dde5419640af8a254597.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">空调（大1匹/三级能效)</p>
+              <p class="seckill-goods-intro">出众静音，快速制冷热</p>
+              <p>
+                <span class="current-price">1499.00元</span>
+                <span class="old-price">1799.00元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/04f1d7c6207a210a41cd10fad3b0694d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">柚家湿巾 （三盒装） 白色</p>
+              <p class="seckill-goods-intro">75%酒精，有效清洁杀菌</p>
+              <p>
+                <span class="current-price">39.00元</span>
+                <span class="old-price">59元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ff6d8ce4b095cdc62c5924a2be3fc970.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家直流变频落地扇</p>
+              <p class="seckill-goods-intro">用科技创造自然风</p>
+              <p>
+                <span class="current-price">309.00元</span>
+                <span class="old-price">349元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8674c6a19801dde5419640af8a254597.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">空调（大1匹/三级能效)</p>
+              <p class="seckill-goods-intro">出众静音，快速制冷热</p>
+              <p>
+                <span class="current-price">1499.00元</span>
+                <span class="old-price">1799.00元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/04f1d7c6207a210a41cd10fad3b0694d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">柚家湿巾 （三盒装） 白色</p>
+              <p class="seckill-goods-intro">75%酒精，有效清洁杀菌</p>
+              <p>
+                <span class="current-price">39.00元</span>
+                <span class="old-price">59元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>     
+        </ul>
+        <ul class="seckill-goods-list">
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/04f1d7c6207a210a41cd10fad3b0694d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">柚家湿巾 （三盒装） 白色</p>
+              <p class="seckill-goods-intro">75%酒精，有效清洁杀菌</p>
+              <p>
+                <span class="current-price">39.00元</span>
+                <span class="old-price">59元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ff6d8ce4b095cdc62c5924a2be3fc970.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家直流变频落地扇</p>
+              <p class="seckill-goods-intro">用科技创造自然风</p>
+              <p>
+                <span class="current-price">309.00元</span>
+                <span class="old-price">349元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8674c6a19801dde5419640af8a254597.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">空调（大1匹/三级能效)</p>
+              <p class="seckill-goods-intro">出众静音，快速制冷热</p>
+              <p>
+                <span class="current-price">1499.00元</span>
+                <span class="old-price">1799.00元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/04f1d7c6207a210a41cd10fad3b0694d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">柚家湿巾 （三盒装） 白色</p>
+              <p class="seckill-goods-intro">75%酒精，有效清洁杀菌</p>
+              <p>
+                <span class="current-price">39.00元</span>
+                <span class="old-price">59元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>     
+        </ul>
+        <ul class="seckill-goods-list">
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8674c6a19801dde5419640af8a254597.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">空调（大1匹/三级能效)</p>
+              <p class="seckill-goods-intro">出众静音，快速制冷热</p>
+              <p>
+                <span class="current-price">1499.00元</span>
+                <span class="old-price">1799.00元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/04f1d7c6207a210a41cd10fad3b0694d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">柚家湿巾 （三盒装） 白色</p>
+              <p class="seckill-goods-intro">75%酒精，有效清洁杀菌</p>
+              <p>
+                <span class="current-price">39.00元</span>
+                <span class="old-price">59元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ff6d8ce4b095cdc62c5924a2be3fc970.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家直流变频落地扇</p>
+              <p class="seckill-goods-intro">用科技创造自然风</p>
+              <p>
+                <span class="current-price">309.00元</span>
+                <span class="old-price">349元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8674c6a19801dde5419640af8a254597.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">空调（大1匹/三级能效)</p>
+              <p class="seckill-goods-intro">出众静音，快速制冷热</p>
+              <p>
+                <span class="current-price">1499.00元</span>
+                <span class="old-price">1799.00元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/04f1d7c6207a210a41cd10fad3b0694d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">柚家湿巾 （三盒装） 白色</p>
+              <p class="seckill-goods-intro">75%酒精，有效清洁杀菌</p>
+              <p>
+                <span class="current-price">39.00元</span>
+                <span class="old-price">59元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>     
+        </ul>
+        <ul class="seckill-goods-list">
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/04f1d7c6207a210a41cd10fad3b0694d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">柚家湿巾 （三盒装） 白色</p>
+              <p class="seckill-goods-intro">75%酒精，有效清洁杀菌</p>
+              <p>
+                <span class="current-price">39.00元</span>
+                <span class="old-price">59元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>     
+        </ul>
+        <ul class="seckill-goods-list">
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97afe622ee275fe873abd9f80a31e6d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">小米路由器4A千兆版 </p>
+              <p class="seckill-goods-intro">双核全千兆AC1200路由器</p>
+              <p>
+                <span class="current-price">129.00元</span>
+                <span class="old-price">169元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li> 
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c2c69389bb90b389173903cdec03ac6.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">RedmiBook 13 锐龙版 R5 16G 512G SATA SSD 集显 月光银</p>
+              <p class="seckill-goods-intro">全面屏高性能轻薄本</p>
+              <p>
+                <span class="current-price">3799.00元</span>
+                <span class="old-price">3999元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>
+          <li class="seckill-goods-item">
+            <img
+              style="width: 190px;" 
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e33f9e4a70b7764081bcdd64a77cd8d.jpg" />
+            <div class="sckill-goods-info">
+              <p class="seckill-goods-name">米家两门冰箱 160L 银色</p>
+              <p class="seckill-goods-intro">小巧能装，速冻养鲜</p>
+              <p>
+                <span class="current-price">899.00元</span>
+                <span class="old-price">1099元</span>
+              </p>
+              <a class="join-seckill">登录后抢购</a>
+            </div>
+          </li>     
+        </ul>
+      </div>
+      <div class="seckill-explain">
+        <p>*小米秒杀活动规则：</p>
+        <p>
+          1.秒杀商品是否参加活动、最终秒杀成功的商品，以订单结算页显示为准，活动包括但不限于优惠券、赠品、满减、满赠等；
+        </p>
+        <p>
+          2.秒杀商品数量有限，活动以下单支付成功为准，请加入购物车后尽快下单支付;
+        </p>
+        <p>
+          3.秒杀价不含运费，最终以订单结算页价格为准；
+        </p>
+        <p>4.订单中商品的数量、颜色、型号等，以订单结算页为准。</p>
+        <p>
+          温馨提示：因可能存在系统缓存、页面更新导致价格变动异常等不确定性情况出现，如您发现活动商品标价或促销信息有异常，请您立即联系小米客服，以便我们及时补正
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-info">
+    <div class="container">
+      <div class="mi-service">
+        <div class="service-item">
+          <img
+            class="footer-service-icon" 
+            src="../public/asset/img/icon-setting.png"
+          >
+          <span>预约维修</span>
+        </div>
+        <div class="service-item">
+          <img
+            class="footer-service-icon"  
+            src="../public/asset/img/icon-7day.png"
+          >
+          <span>7天无理由退货</span>
+        </div>
+        <div class="service-item">
+          <img 
+            class="footer-service-icon" 
+            src="../public/asset/img/icon-15day.png"
+          >
+          <span>15天免费换货</span>
+        </div>
+        <div class="service-item">
+          <img
+            class="footer-service-icon"  
+            src="../public/asset/img/post.png"
+          >
+          <span>满99元包邮</span>
+        </div>
+        <div class="service-item">
+          <img
+            class="footer-service-icon"  
+            src="../public/asset/img/icon-loc.png"
+          >
+          <span>520余家售后网点</span>
+        </div>
+      </div>
+      <div class="footer-service">
+        <dl>
+          <dt>帮助中心</dt>
+          <dd><a>账户管理</a></dd>
+          <dd><a>购物指南</a></dd>
+          <dd><a>订单操作</a></dd>
+        </dl>
+        <dl>
+          <dt>服务支持</dt>
+          <dd><a>售后政策</a></dd>
+          <dd><a>自助服务</a></dd>
+          <dd><a>相关下载</a></dd>
+        </dl>
+        <dl>
+          <dt>线下门店</dt>
+          <dd><a>小米之家</a></dd>
+          <dd><a>服务网点</a></dd>
+          <dd><a>授权体验店</a></dd>
+        </dl>
+        <dl>
+          <dt>了解小米</dt>
+          <dd><a>加入小米</a></dd>
+          <dd><a>投资者关系</a></dd>
+          <dd><a>企业社会责任</a></dd>
+          <dd><a>廉洁举报</a></dd>
+        </dl>
+        <dl>
+          <dt>关注我们</dt>
+          <dd><a>新浪微博</a></dd>
+          <dd><a>官方微信</a></dd>
+          <dd><a>联系我们</a></dd>
+          <dd><a>公益基金会</a></dd>
+        </dl>
+        <dl>
+          <dt><a>特色服务</a></dt>
+          <dd><a>F 码通道</a></dd>
+          <dd><a>礼物码</a></dd>
+          <dd><a>防伪查询</a></dd>
+        </dl>
+        <div class="footer-concat">
+          <p class="number">400-100-5678</p>
+          <div class="time">8:00-18:00（仅收市话费）</div>
+          <div class="human-service">人工服务</div>
+          <p class="follow-mi">
+            <span style="margin-right: 5px">关注小米:</span>
+            <img
+              style="vertical-align: middle;width: 20px;" 
+              width="20px"
+              src="../public/asset/img/sina.png"
+            />
+            <img 
+              style="vertical-align: middle;width: 20px;" 
+              src="../public/asset/img/wechat.png"
+            />
+          </p>
+        </div>
+      </div>
+      <div class="friend-link">
+        <ul class="friend-link-list">
+          <li><a>小米商城</a></li>
+          <li><a>MIUI</a></li>
+          <li><a>米家</a></li>
+          <li><a>米聊 </a></li>
+          <li><a>多看 </a></li>
+          <li><a>游戏 </a></li>
+          <li><a>政企服务 </a></li>
+          <li><a>小米天猫店 </a></li>
+          <li><a>小米集团隐私政策</a></li>
+          <li><a>小米公司儿童信息保护规则</a></li>
+          <li><a>小米商城隐私政策</a></li>
+          <li><a>小米商城用户协议</a></li> 
+          <li><a>问题反馈</a></li>
+          <li><a>Select Location</a></li> 
+        </ul>
+      </div>
+      <div class="copyrights">
+        <p>
+          © mi.com 
+          <strong>京ICP证110507号</strong>京ICP备10046444号 京公网安备11010802020134号 京网文[2020]0276-042号
+        </p>
+        <p>
+          （京）网械平台备字（2018）第00005号 互联网药品信息服务资格证 (京)-非经营性-2014-0090 营业执照 医疗器械质量公告
+        </p>
+        <p>
+          增值电信业务许可证 <strong>网络食品经营备案（京）【2018】WLSPJYBAHF-12</strong>  食品经营许可证
+        </p>
+        <p>
+          <strong>违法和不良信息举报电话：185-0130-1238</strong>知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+        </p>
+      </div>
+      <div class="footer-logos">
+        <img src="http://i1.mifile.cn/f/i/17/site/truste.png"/>
+        <img src="http://s01.mifile.cn/i/v-logo-2.png"/>
+        <img src="http://s01.mifile.cn/i/v-logo-1.png" />
+        <img src="http://i8.mifile.cn/b2c-mimall-media/ba10428a4f9495ac310fd0b5e0cf8370.png" />
+      </div>
+    </div>
+  </div>
+  <div class="slogan">
+    <img src="http://cnbj1.fds.api.xiaomi.com/staticsfile/global/slogan2020.png" />
+  </div>
+  <!-- 吸顶 -->
+  <script>
+    //获取滚动条当前的位置
+    function getScrollTop() {
+      var scrollTop = 0
+      if(document.documentElement && document.documentElement.scrollTop) {
+        scrollTop = document.documentElement.scrollTop
+      } else if(document.body) {
+        scrollTop = document.body.scrollTop
+      }
+      return scrollTop
+    }
+    //获取导航栏的dom节点
+    var nav_dom=document.getElementsByClassName("seckill-bar")[0]
+    //监听滚动条
+    window.onscroll = function() {
+    //判断滚动条大于30,导航栏吸顶
+      if(getScrollTop() > 400) {
+        nav_dom.className = "seckill-bar fixed"
+      } else {
+        nav_dom.className = "seckill-bar"
+      }
+    }
+    //tab选项卡
+    //获取选项卡内容
+    let tabContent = document.getElementsByClassName('seckill-goods-list')
+    //获取选项卡
+    let tabs = document.getElementsByClassName('seckill-playground-num')
+    //刚打开页面的时候是第一个tab默认选中
+    tabs[0].classList.add('seckill-active')
+    //为选项卡添加点击事件，这里注意let会产生块级作用域
+    for(let i = 0; i < tabs.length; i++) {
+      //移除其他选项卡选中状态
+      tabs[i].addEventListener('click', function() {
+        for(let j = 0; j < tabs.length; j++) {
+          tabs[j].classList.remove('seckill-active')
+        }
+        //添加选中样式
+        this.classList.add('seckill-active')
+        for(let m = 0; m < tabContent.length; m++) {
+          tabContent[m].style.display = "none"
+        }
+        tabContent[i].className="seckill-goods-list"
+        tabContent[i].style.display = "flex"
+      })
+    }
+  </script>
+</body>
+</html>

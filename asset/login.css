@@ -1,0 +1,93 @@
+.container {
+  width: 1226px;
+  margin: 0 auto;
+}
+.login-bg {
+  position: relative;
+  height: 588px;
+  background: url('https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aece569d6689b4c461bb53efd9eea9c7.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.login-container {
+  position: relative;
+  width: 1226px;
+}
+.login-form {
+  padding: 30px;
+  position: absolute;
+  background-color: #fff;
+  top: 30px;
+  right: 20px;
+  width: 410px;
+  box-sizing: border-box;
+  padding-bottom: 220px;
+}
+.login-title {
+  color: #666666;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  height: 40px;
+  line-height: 40px;
+}
+.login-input input {
+  margin-top: 15px;
+  width: 100%;
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  border: .5px solid #b0b0b0;
+  outline: none;
+  padding: 0;
+}
+.login-btn {
+  color: #fff;
+  text-align: center;
+  margin-top: 22px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff6700;
+}
+.tips {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  color: #999999;
+}
+.theme-color {
+  color: #ff6700;
+}
+.other-login-way {
+  color: #999999;
+  text-align: center;
+  margin-top: 120px;
+}
+.gutter {
+  color: #E0E0E0;
+  padding: 0 30px;
+}
+.footer {
+  font-size: 12px;
+  color: #999999;
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer>p:first-child {
+  margin-bottom: 30px;
+}
+.footer>p>span{
+  padding: 0 10px;
+}
+
+.login-content {
+  display: none;
+}
+
+.qr-code {
+  text-align: center;
+  margin-top: 40px;
+}
